@@ -33,7 +33,7 @@ var move = args._[0];
 
 try {
 	result = rps(move);
-	console.log(JSON.stringify(rps(result)));
+	console.log(JSON.stringify(result));
 } catch (e) {
 	console.log('Invalid entry!\n\n');
 	helpM();

@@ -35,3 +35,16 @@ function rulesM() {
 		' - Spock VAPORIZES Rock\n',
 		' - Rock CRUSHES Scissors');
 }
+
+var move = args._[0];
+
+try {
+	result = rpsls(move);
+	console.log(JSON.stringify(result));
+} catch (e) {
+	console.log('Invalid entry!\n\n');
+	helpM();
+	rulesM();
+	process.exit(0);
+}
+
