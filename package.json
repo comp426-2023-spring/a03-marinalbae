@@ -16,6 +16,10 @@
     "url": "https://github.com/comp426-2023-spring/a03-marinalbae/issues"
   },
   "homepage": "https://github.com/comp426-2023-spring/a03-marinalbae#readme",
+  "bin": {
+	"node-rps": "./bin/rps-cli.js",
+	"node-rpsls": "./bin/rpsls-cli.js"
+  },
   "dependencies": {
     "minimist": "^1.2.8"
   }
